@@ -15,7 +15,7 @@ CREATE TABLE `media_artists` (
 
 CREATE TABLE `media_tracks` (
 
-  `track_id` int(11) NOT NULL,
+  `track_id` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   
   `username` varchar(50) NOT NULL,
   
