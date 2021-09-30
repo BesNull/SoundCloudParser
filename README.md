@@ -3,7 +3,9 @@
 
 CREATE TABLE `media_artists` (
   `Username` varchar(50) NOT NULL PRIMARY KEY,
+  
   `Fullname` varchar(50) NOT NULL
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
