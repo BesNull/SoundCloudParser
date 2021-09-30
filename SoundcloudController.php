@@ -75,11 +75,11 @@ preg_match_all('#"station_permalink":"artist-stations:([^\s]+)#', $dump, $matche
 
 $str = implode(' ', $matches[1]);
 //$str = $matches[1];
-$keywords = preg_split("/[\n,]+/", $str); //вот эта строчка чудо образом разложила строку на удобный массив
+$keywords = preg_split("/[\n,]+/", $str); // эта строчка  разложила строку на удобный массив, из которого можно вытащить UserID
 print_r($keywords);
 $usrID = intval($keywords[0]);
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!так искать удобно нужные строки, которые мы вставляем в preg_match_all
+//так искать удобно нужные строки, которые мы вставляем в preg_match_all
 //simpledebug(var_export($dump));
 
 //получение треков  (client_id скорее всего со временем нужно будет менять, просто заходим в браузер, смотрим "Сеть" и ищем любой запрос к api )
