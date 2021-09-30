@@ -9,7 +9,8 @@ CREATE TABLE `media_artists` (
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
+<br/>
+<br/>
 
 
 CREATE TABLE `media_tracks` (
