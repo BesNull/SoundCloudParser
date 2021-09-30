@@ -25,7 +25,7 @@ CREATE TABLE `media_tracks` (
   
   `description` varchar(100) DEFAULT NULL,
   
-  PRIMARY KEY(`track_id`, `username`, `track_name`),
+  PRIMARY KEY(`username`, `track_name`),
   
   FOREIGN KEY (`username`) REFERENCES media_artists(`Username`)
   
