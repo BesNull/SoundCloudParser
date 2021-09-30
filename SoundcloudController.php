@@ -16,12 +16,6 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlHandler;
 use Psr\Http\Message\RequestInterface;
 
-
-
-
-
-
-
 $locdbtest = "127.0.0.1";
 $namedbtest = "test";
 $userdbtest = "root";
